@@ -38,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 gem build deep_check.gemspec
 
-gem install deep_check-0.2.0.gem
+gem install deep_check-0.2.6.gem
 
 ## Contributing
 

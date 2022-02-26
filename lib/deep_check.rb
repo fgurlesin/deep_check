@@ -7,7 +7,7 @@ module DeepCheck
   # Your code goes here...
   #
   def hi
-    puts "Hi!"
+    puts "Hello Faruk!"
   end
 
   def deepCheck(chars, filler = '')
@@ -15,10 +15,7 @@ module DeepCheck
   end
 end
 
-def hello
-  include DeepCheck
-end
 
-def String
-  include DeepCheck
+def hi2
+  puts "Hello Faruk!"
 end

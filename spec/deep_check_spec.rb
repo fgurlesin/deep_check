@@ -5,7 +5,7 @@ RSpec.describe DeepCheck do
     expect(DeepCheck::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "call function" do
+    expect(DeepCheck::hi).to eq("Hello")
   end
 end

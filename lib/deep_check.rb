@@ -6,9 +6,19 @@ module DeepCheck
   class Error < StandardError; end
   # Your code goes here...
   #
-  class DeepCheck
-    def self.hi
-      puts "Hello DeepChecker"
-    end
+  def hi
+    puts "Hi!"
   end
+
+  def deepCheck(chars, filler = '')
+    self.rjust(chars,filler)
+  end
+end
+
+def hello
+  include DeepCheck
+end
+
+def String
+  include DeepCheck
 end
